@@ -47,12 +47,12 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/DevsZone"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
+                        InlineKeyboardButton("CHANNEL📢", url="https://t.me/tobot_update"),
+                        InlineKeyboardButton("GROUP👥", url="https://t.me/tobotupdate")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("REPO🤖", url="https://t.me/bot_repo"),
+                        InlineKeyboardButton("DEVLOAPER👩‍💻", url="https://t.me/rungram")
                     ]
                 ]
             )
@@ -281,12 +281,12 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/AbirHasan2005/PyroFilesStoreBot")
+                        InlineKeyboardButton("🔔SUBSCRIBE🔔",
+                                             url="https://youtube.com/channel/UC1SeMwgyNDi_n4T8cbgVjKQ")
                     ],
                     [
-                        InlineKeyboardButton("Go Home", callback_data="gotohome"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("Go Home🏠", callback_data="gotohome"),
+                        InlineKeyboardButton("About Dev🧑", callback_data="aboutdevs")
                     ]
                 ]
             )
@@ -300,12 +300,12 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/AbirHasan2005/PyroFilesStoreBot")
+                        InlineKeyboardButton("🔔SUBSCRIBE🔔",
+                                             url="https://youtube.com/channel/UC1SeMwgyNDi_n4T8cbgVjKQ")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("Go Home", callback_data="gotohome")
+                        InlineKeyboardButton("Bot🤖", callback_data="aboutbot"),
+                        InlineKeyboardButton("Go Home🏠", callback_data="gotohome")
                     ]
                 ]
             )

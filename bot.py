@@ -53,8 +53,8 @@ async def start(bot: Client, cmd: Message):
                     [
                         InlineKeyboardButton("REPO🤖", url="https://t.me/bot_repo"),
                         InlineKeyboardButton("DEVLOAPER👩‍💻", url="https://t.me/rungram")
-                    [,
-                    ]
+                    ],
+                    [
                         InlinekeyboardButton("🔔SUBSCRIBE🔔", url="https://youtube.com/channel/UC1SeMwgyNDi_n4T8cbgVjKQ")
                     ]
                 ]

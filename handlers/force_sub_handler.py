@@ -13,7 +13,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
         if user.status == "kicked":
             await bot.send_message(
                 chat_id=cmd.from_user.id,
-                text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/DevsZone).",
+                text="Sorry Sir, You are Banned to use me. Contact my [Group👥](https://t.me/tobot_update).",
                 parse_mode="markdown",
                 disable_web_page_preview=True
             )
@@ -34,7 +34,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                        InlineKeyboardButton("⭕Join Updates Channel⭕", url=invite_link.invite_link)
                     ],
                     [
                         InlineKeyboardButton("🔄 Refresh 🔄", callback_data="refreshForceSub")
@@ -47,7 +47,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
     except Exception:
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="Something went Wrong. Contact my [Support Group](https://t.me/DevsZone).",
+            text="Something went Wrong. Contact my [Group👥](https://t.me/tobotupdate).",
             parse_mode="markdown",
             disable_web_page_preview=True
         )

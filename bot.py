@@ -322,12 +322,15 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/DevsZone"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
+                        InlineKeyboardButton("CHANNEL📢", url="https://t.me/tobot_update"),
+                        InlineKeyboardButton("GROUP👥", url="https://t.me/tobotupdate")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("REPO🤖", url="https://t.me/bot_repo),
+                        InlineKeyboardButton("DEVLOAPER👩‍💻", url="https://t.me/rungram")
+                    ],
+                    [
+                       InlinekeyboardButton("🔔SUBSCRIBE🔔", url="https://youtube.com/channel/UC1SeMwgyNDi_n4T8cbgVjKQ")
                     ]
                 ]
             )
@@ -376,12 +379,15 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/DevsZone"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
+                        InlineKeyboardButton("CHANNEL📢", url="https://t.me/tobot_update"),
+                        InlineKeyboardButton("GROUP👥", url="https://t.me/tobotupdate")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("REPO🤖", url="https://t.me/bot_repo"),
+                        InlineKeyboardButton("DEVLOAPER👩‍💻", url="https://t.me/rungram")
+                    ],
+                    [
+                        InlinekeyboardButton("🔔SUBSCRIBE🔔", url="https://youtube.com/channel/UC1SeMwgyNDi_n4T8cbgVjKQ")
                     ]
                 ]
             )
